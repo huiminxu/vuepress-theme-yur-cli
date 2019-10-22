@@ -57,6 +57,13 @@ module.exports = {
                     logo: 'https://static.xmt.cn/cc50c217cbe342ce951324583f2c6139.png',
                     color: '#3c67bd',
                 },
+              	{
+                    title: '阿业战记',
+                    subtitle: '提升码农亩产，掰直码农方向',
+                    link: 'https://eeee.im/',
+                    logo: 'https://eeee.im/avatar.jpg',
+                    color: '#3c67bd',
+                },
                 {
                     // 继续添加
                 },
@@ -126,7 +133,7 @@ module.exports = {
         anchor: { permalink: true, permalinkBefore: true, permalinkSymbol: '#' },
         toc: { includeLevel: [2, 3] },
     },
-    host: 'localhost',
-    port: '2234',
+    //host: 'localhost',
+    //port: '2234',
     dest: 'dist',
 };
