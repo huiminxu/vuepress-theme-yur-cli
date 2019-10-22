@@ -37,10 +37,29 @@ module.exports = {
         authorLink: 'https://github.com/cnguu/',
         logo: '/20171231/logo.png',
         // banner: '/20171231/banner.png',
+
+        //导航栏
         nav: [
             { text: '其它', link: '/other/' },
         ],
+        
+        // 评论：vssue or valine
+        // comment: 'vssue',
         vssue: false,
+
+        // valine
+        // valine: {
+        //     appId: '<API_ID>',
+        //     appKey: '<API_Key>',
+        //     placeholder: '在这里写下你的留言丨支持 MarkDown 语法',
+        //     notify: true,
+        //     verify: true,
+        //     avatar: 'mp',
+        //     pageSize: 8,
+        //     recordIP: true,
+        // },
+
+        //百度自动推送
         baiDuAuthPush: false,
         // crisp: '',
         reward: [
@@ -77,11 +96,11 @@ module.exports = {
         },
         footer: [
             [
-                // {
-                //     title: 'Yur',
-                //     subtitle: 'VuePress 主题',
-                //     link: 'https://github.com/cnguu/vuepress-theme-yur',
-                // },
+                {
+                    title: 'Yur-cli',
+                    subtitle: 'Yur主题快速搭建工具',
+                    link: 'https://github.com/ioim/vuepress-theme-yur-cli',
+                },
                 // {
                 //     继续添加
                 // },
