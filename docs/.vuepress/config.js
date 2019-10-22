@@ -134,6 +134,6 @@ module.exports = {
         toc: { includeLevel: [2, 3] },
     },
     //host: 'localhost',
-    //port: '2234',
+    port: '2234',
     dest: 'dist',
 };
