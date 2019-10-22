@@ -14,7 +14,7 @@
 ### 下载
 
 ```bash
-$ git clone https://github.com/cnguu/vuepress-cli.git
+$ git clone https://github.com/ioim/vuepress-theme-yur-cli.git
 ```
 
 ### 修改仓库地址
