@@ -45,9 +45,8 @@ module.exports = {
         
         // 评论：vssue or valine
         // comment: 'vssue',
-        vssue: false,
 
-        // valine
+        // valine配置，打开此功能需配置 comment: 'valine',
         // valine: {
         //     appId: '<API_ID>',
         //     appKey: '<API_Key>',
@@ -88,12 +87,14 @@ module.exports = {
                 },
             ],
         },
+        //关于我配置
         about: {
             banner: '/20171231/first-day-of-spring-2016-northern-hemisphere.gif',
             avatar: 'https://static.xmt.cn/cc50c217cbe342ce951324583f2c6139.png',
             name: 'cnguu',
             introduction: '责难无以成事',
         },
+        //页脚配置
         footer: [
             [
                 {
@@ -132,6 +133,7 @@ module.exports = {
         //     github: 'https://cdn.jsdelivr.net/gh/cnguu/pic@master',
         // },
     },
+    //插件管理
     plugins: [
         // ['@vssue/vuepress-plugin-vssue', {
         //     platform: 'github',
