@@ -40,7 +40,7 @@ git add -A
 git commit -m deploy
 
 # 强制推送到 cnguu.github.io 仓库的 master 分支
-git push -f git@github.com:cnguu/cnguu.github.io.git master
+git push -f https://github.com/ioim/aaa.git master
 
 # 多仓库部署开始 ------
 
