@@ -24,17 +24,29 @@ module.exports = {
         //     src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
         // }],
     ],
+
+    // 多语言
     locales: {
         '/': {
             lang: 'zh-CN',
         },
     },
+
     evergreen: true,
+
     theme: 'yur',
+
     themeConfig: {
+        // 站点地址
         site: 'https://gleehub.com',
+
+        // 博主名称
         author: 'cnguu',
+
+        // 博主名称跳转链接
         authorLink: 'https://github.com/cnguu/',
+
+        // 站点 Logo
         logo: '/20171231/logo.png',
         // banner: '/20171231/banner.png',
 
@@ -44,7 +56,7 @@ module.exports = {
         ],
         
         // 评论：vssue or valine
-        // comment: 'vssue',
+        //comment: 'valine',
 
         // valine配置，打开此功能需配置 comment: 'valine',
         // valine: {
@@ -60,20 +72,27 @@ module.exports = {
 
         //百度自动推送
         baiDuAuthPush: false,
+
+        // 在线聊天
         // crisp: '',
+
+        // 打赏
         reward: [
             'https://static.xmt.cn/ca717dde8ae14ea7ab3c8c74b8711414.png',
             'https://static.xmt.cn/acc7d3d02b0c4a35a3735268cbb2cce0.png',
         ],
+
+        // 友链
         link: {
+            // 封面图
             banner: '/20171231/summer-solstice-strawberry-moon.gif',
             blog: [
                 {
-                    title: '凉风有信',
-                    subtitle: '责难无以成事',
-                    link: 'https://gleehub.com/',
-                    logo: 'https://static.xmt.cn/cc50c217cbe342ce951324583f2c6139.png',
-                    color: '#3c67bd',
+                    title: '凉风有信',                                                                  // 站点名称
+                    subtitle: '责难无以成事',                                                           // 站点描述
+                    link: 'https://gleehub.com/',                                                      // 站点网址
+                    logo: 'https://static.xmt.cn/cc50c217cbe342ce951324583f2c6139.png',                // 头像或者 Logo
+                    color: '#3c67bd',                                                                  // 主题色
                 },
               	{
                     title: '阿业战记',
@@ -87,28 +106,30 @@ module.exports = {
                 },
             ],
         },
+
         //关于我配置
         about: {
-            banner: '/20171231/first-day-of-spring-2016-northern-hemisphere.gif',
-            avatar: 'https://static.xmt.cn/cc50c217cbe342ce951324583f2c6139.png',
-            name: 'cnguu',
-            introduction: '责难无以成事',
+            banner: '/20171231/first-day-of-spring-2016-northern-hemisphere.gif',   // 封面图
+            avatar: 'https://static.xmt.cn/cc50c217cbe342ce951324583f2c6139.png',   // 头像链接
+            name: 'cnguu',                                                          // 博主名称
+            introduction: '责难无以成事',                                            // 简介
         },
+
         //页脚配置
         footer: [
-            [
+            [   // 推荐资源
                 {
-                    title: 'Yur-cli',
-                    subtitle: 'Yur主题快速搭建工具',
+                    title: 'Yur Cli',
+                    subtitle: 'Yur 主题快速搭建工具',
                     link: 'https://github.com/ioim/vuepress-theme-yur-cli',
                 },
                 // {
                 //     继续添加
                 // },
             ],
-            [
+            [   // 相关信息
                 {
-                    title: 'Github',
+                    title: 'GitHub',
                     link: 'https://github.com/cnguu/',
                     type: 'github',
                     theme: 'filled',
@@ -117,7 +138,7 @@ module.exports = {
                     // 继续添加
                 },
             ],
-            [
+            [   // 其它
                 {
                     title: 'www@cnguu.cn',
                     link: 'mailto:www@cnguu.cn',
@@ -129,9 +150,30 @@ module.exports = {
                 },
             ],
         ],
+
+        // GitHub 图床
         // cdn: {
         //     github: 'https://cdn.jsdelivr.net/gh/cnguu/pic@master',
         // },
+
+        // 落下帷幕
+        curtain: {
+            tip: '页面准备中...',   // 提示语
+            textShadow: '#e91e63', // 文字阴影颜色
+        },
+
+        // 打字特效
+        ityped: {
+            typeSpeed: 300,           // 正常速度
+            backSpeed: 100,           // 反向速度
+            startDelay: 300,          // 开始延迟（毫秒）
+            backDelay: 300,           // 反向延迟（毫秒）
+            loop: true,               // 循环
+            showCursor: true,         // 显示指针
+            placeholder: false,       // 占位
+            disableBackTyping: false, // 禁用反向输入
+            cursorChar: '丨',         // 指针字符
+        },
     },
     //插件管理
     plugins: [
@@ -149,11 +191,14 @@ module.exports = {
         //     hostname: 'https://gleehub.com',
         // }],
     ],
+
+    // MarkDown 扩展
     markdown: {
         lineNumbers: true,
         anchor: { permalink: true, permalinkBefore: true, permalinkSymbol: '#' },
         toc: { includeLevel: [2, 3] },
     },
+
     //host: 'localhost',
     port: '2234',
     dest: 'dist',
