@@ -4,6 +4,8 @@
 
 基于 [Yur](https://github.com/cnguu/vuepress-theme-yur) 主题的 VuePress 博客快速搭建工具
 
+[![stars](https://badgen.net/github/stars/micromatch/micromatch)](https://github.com/ioim/vuepress-theme-yur-cli)
+
 ## 准备
 
 - 源码仓库（源码备份）
