@@ -4,10 +4,7 @@
 
 基于 [Yur](https://github.com/cnguu/vuepress-theme-yur) 主题的 VuePress 博客快速搭建工具
 
-[![node](https://img.shields.io/badge/node-v12.13.0-ff69b4)](http://nodejs.cn/)
-[![yarn](https://img.shields.io/badge/yarn-1.19.1-green)](https://yarn.bootcss.com/)
 [![last-commit](https://badgen.net/github/last-commit/ioim/vuepress-theme-yur-cli)](https://github.com/ioim/vuepress-theme-yur-cli)
-[![GitHub stars](https://img.shields.io/github/stars/ioim/vuepress-theme-yur-cli)](https://github.com/ioim/vuepress-theme-yur-cli/stargazers)
 [![GitHub license](https://img.shields.io/github/license/ioim/vuepress-theme-yur-cli)](https://github.com/ioim/vuepress-theme-yur-cli/blob/master/LICENSE)
 
 ## 准备
