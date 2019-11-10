@@ -16,4 +16,4 @@ meta:
 
 ## 不知道说点啥
 
-<YurImg src="/images/tooth.gif" alt="爱护牙齿" />
+<YurImg src="/20171231/tooth.gif" alt="爱护牙齿" />

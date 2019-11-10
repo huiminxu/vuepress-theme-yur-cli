@@ -50,6 +50,12 @@ module.exports = {
         logo: '/20171231/logo.png',
         // banner: '/20171231/banner.png',
 
+        // 首页按钮，type 默认：default，可选：primary dashed danger link
+        bannerButtons: [
+            {text: '阅读博文', link: '/posts/?page=1&pageSize=12', type: 'primary'},
+            {text: '了解博主', link: '/about', type: 'default'},
+        ],
+
         // 时间线
         timeline: true,
 
@@ -104,9 +110,6 @@ module.exports = {
                     logo: 'https://eeee.im/avatar.jpg',
                     color: '#3c67bd',
                 },
-                {
-                    // 继续添加
-                },
             ],
         },
 
@@ -132,10 +135,10 @@ module.exports = {
             ],
             [   // 相关信息
                 {
-                    title: 'GitHub',
-                    link: 'https://github.com/cnguu/',
-                    type: 'github',
-                    theme: 'filled',
+                    title: 'GitHub',                        // 标题
+                    link: 'https://github.com/cnguu/',      // 跳转链接
+                    type: 'github',                         // 图标，这里获取：https://vue.ant.design/components/icon-cn/
+                    theme: 'filled',                        // 图标类型，可选：filled（实心）丨outlined（默认：描线）丨twoTone（双色）
                 },
                 {
                     // 继续添加
