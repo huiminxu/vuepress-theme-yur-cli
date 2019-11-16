@@ -82,6 +82,9 @@ module.exports = {
         //百度自动推送
         baiDuAuthPush: false,
 
+        //百度统计
+        // baiDuTongJi: 'token', // https://hm.baidu.com/hm.js?token
+
         // 在线聊天
         // crisp: '',
 
@@ -156,11 +159,6 @@ module.exports = {
                 },
             ],
         ],
-
-        // GitHub 图床
-        // cdn: {
-        //     github: 'https://cdn.jsdelivr.net/gh/cnguu/pic@master',
-        // },
 
         // 落下帷幕
         curtain: {
