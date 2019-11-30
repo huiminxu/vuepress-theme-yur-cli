@@ -23,8 +23,8 @@ module.exports = {
         //     async: 1,
         //     src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
         // }],
-        //小图标
-        ['script', {src: '//at.alicdn.com/t/font_1538415_aglbxtcoy04.js'}],
+        //小图标，font_xxx.js替换为自己的
+        ['script', {src: '//at.alicdn.com/t/font_xxx.js'}],
     ],
 
     // 多语言
