@@ -10,8 +10,8 @@
 
 ## 准备
 
-- 源码仓库（源码备份）
-- 博客仓库（博客部署）
+- :octocat:源码仓库（源码备份）
+- :octocat:博客仓库（博客部署）
 
 ## 开发环境
 
@@ -19,11 +19,6 @@
 - Node.js
 - yarn
 
-### 开发环境搭建
-
-- [Windows 开发环境搭建](https://eeee.im/build/windows-an-zhuangnodejs.html)
-- [CentOS 开发环境搭建](https://eeee.im/build/centos-an-zhuangnodejs.html)
-- [Ubuntu 开发环境搭建](https://eeee.im/build/nodejs.html)
 
 ## 使用
 
